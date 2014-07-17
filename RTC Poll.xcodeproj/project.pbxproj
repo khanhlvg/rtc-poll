@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA7D1901977E60700533447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D18F1977E60700533447 /* Foundation.framework */; };
+		BFA7D1921977E60700533447 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1911977E60700533447 /* CoreGraphics.framework */; };
+		BFA7D1941977E60700533447 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1931977E60700533447 /* UIKit.framework */; };
+		BFA7D19A1977E60700533447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFA7D1981977E60700533447 /* InfoPlist.strings */; };
+		BFA7D19C1977E60700533447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D19B1977E60700533447 /* main.m */; };
+		BFA7D1A01977E60700533447 /* RSDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D19F1977E60700533447 /* RSDAppDelegate.m */; };
+		BFA7D1A31977E60700533447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA7D1A11977E60700533447 /* Main.storyboard */; };
+		BFA7D1A61977E60700533447 /* RSDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1A51977E60700533447 /* RSDFirstViewController.m */; };
+		BFA7D1A91977E60700533447 /* RSDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1A81977E60700533447 /* RSDSecondViewController.m */; };
+		BFA7D1AB1977E60700533447 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA7D1AA1977E60700533447 /* Images.xcassets */; };
+		BFA7D1B21977E60700533447 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1B11977E60700533447 /* XCTest.framework */; };
+		BFA7D1B31977E60700533447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D18F1977E60700533447 /* Foundation.framework */; };
+		BFA7D1B41977E60700533447 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1931977E60700533447 /* UIKit.framework */; };
+		BFA7D1BC1977E60700533447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFA7D1BA1977E60700533447 /* InfoPlist.strings */; };
+		BFA7D1BE1977E60700533447 /* RTC_PollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1BD1977E60700533447 /* RTC_PollTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA7D1B51977E60700533447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA7D1841977E60700533447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA7D18B1977E60700533447;
+			remoteInfo = "RTC Poll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFA7D18C1977E60700533447 /* RTC Poll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RTC Poll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA7D18F1977E60700533447 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFA7D1911977E60700533447 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFA7D1931977E60700533447 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFA7D1971977E60700533447 /* RTC Poll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTC Poll-Info.plist"; sourceTree = "<group>"; };
+		BFA7D1991977E60700533447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFA7D19B1977E60700533447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFA7D19D1977E60700533447 /* RTC Poll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTC Poll-Prefix.pch"; sourceTree = "<group>"; };
+		BFA7D19E1977E60700533447 /* RSDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDAppDelegate.h; sourceTree = "<group>"; };
+		BFA7D19F1977E60700533447 /* RSDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDAppDelegate.m; sourceTree = "<group>"; };
+		BFA7D1A21977E60700533447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA7D1A41977E60700533447 /* RSDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDFirstViewController.h; sourceTree = "<group>"; };
+		BFA7D1A51977E60700533447 /* RSDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDFirstViewController.m; sourceTree = "<group>"; };
+		BFA7D1A71977E60700533447 /* RSDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDSecondViewController.h; sourceTree = "<group>"; };
+		BFA7D1A81977E60700533447 /* RSDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDSecondViewController.m; sourceTree = "<group>"; };
+		BFA7D1AA1977E60700533447 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFA7D1B01977E60700533447 /* RTC PollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RTC PollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA7D1B11977E60700533447 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFA7D1B91977E60700533447 /* RTC PollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTC PollTests-Info.plist"; sourceTree = "<group>"; };
+		BFA7D1BB1977E60700533447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFA7D1BD1977E60700533447 /* RTC_PollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTC_PollTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA7D1891977E60700533447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA7D1921977E60700533447 /* CoreGraphics.framework in Frameworks */,
+				BFA7D1941977E60700533447 /* UIKit.framework in Frameworks */,
+				BFA7D1901977E60700533447 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA7D1AD1977E60700533447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA7D1B21977E60700533447 /* XCTest.framework in Frameworks */,
+				BFA7D1B41977E60700533447 /* UIKit.framework in Frameworks */,
+				BFA7D1B31977E60700533447 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA7D1831977E60700533447 = {
+			isa = PBXGroup;
+			children = (
+				BFA7D1951977E60700533447 /* RTC Poll */,
+				BFA7D1B71977E60700533447 /* RTC PollTests */,
+				BFA7D18E1977E60700533447 /* Frameworks */,
+				BFA7D18D1977E60700533447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA7D18D1977E60700533447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7D18C1977E60700533447 /* RTC Poll.app */,
+				BFA7D1B01977E60700533447 /* RTC PollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA7D18E1977E60700533447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7D18F1977E60700533447 /* Foundation.framework */,
+				BFA7D1911977E60700533447 /* CoreGraphics.framework */,
+				BFA7D1931977E60700533447 /* UIKit.framework */,
+				BFA7D1B11977E60700533447 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFA7D1951977E60700533447 /* RTC Poll */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7D19E1977E60700533447 /* RSDAppDelegate.h */,
+				BFA7D19F1977E60700533447 /* RSDAppDelegate.m */,
+				BFA7D1A11977E60700533447 /* Main.storyboard */,
+				BFA7D1A41977E60700533447 /* RSDFirstViewController.h */,
+				BFA7D1A51977E60700533447 /* RSDFirstViewController.m */,
+				BFA7D1A71977E60700533447 /* RSDSecondViewController.h */,
+				BFA7D1A81977E60700533447 /* RSDSecondViewController.m */,
+				BFA7D1AA1977E60700533447 /* Images.xcassets */,
+				BFA7D1961977E60700533447 /* Supporting Files */,
+			);
+			path = "RTC Poll";
+			sourceTree = "<group>";
+		};
+		BFA7D1961977E60700533447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7D1971977E60700533447 /* RTC Poll-Info.plist */,
+				BFA7D1981977E60700533447 /* InfoPlist.strings */,
+				BFA7D19B1977E60700533447 /* main.m */,
+				BFA7D19D1977E60700533447 /* RTC Poll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA7D1B71977E60700533447 /* RTC PollTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7D1BD1977E60700533447 /* RTC_PollTests.m */,
+				BFA7D1B81977E60700533447 /* Supporting Files */,
+			);
+			path = "RTC PollTests";
+			sourceTree = "<group>";
+		};
+		BFA7D1B81977E60700533447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7D1B91977E60700533447 /* RTC PollTests-Info.plist */,
+				BFA7D1BA1977E60700533447 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA7D18B1977E60700533447 /* RTC Poll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA7D1C11977E60700533447 /* Build configuration list for PBXNativeTarget "RTC Poll" */;
+			buildPhases = (
+				BFA7D1881977E60700533447 /* Sources */,
+				BFA7D1891977E60700533447 /* Frameworks */,
+				BFA7D18A1977E60700533447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RTC Poll";
+			productName = "RTC Poll";
+			productReference = BFA7D18C1977E60700533447 /* RTC Poll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA7D1AF1977E60700533447 /* RTC PollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA7D1C41977E60700533447 /* Build configuration list for PBXNativeTarget "RTC PollTests" */;
+			buildPhases = (
+				BFA7D1AC1977E60700533447 /* Sources */,
+				BFA7D1AD1977E60700533447 /* Frameworks */,
+				BFA7D1AE1977E60700533447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA7D1B61977E60700533447 /* PBXTargetDependency */,
+			);
+			name = "RTC PollTests";
+			productName = "RTC PollTests";
+			productReference = BFA7D1B01977E60700533447 /* RTC PollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA7D1841977E60700533447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RSD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Recruit Tech";
+				TargetAttributes = {
+					BFA7D1AF1977E60700533447 = {
+						TestTargetID = BFA7D18B1977E60700533447;
+					};
+				};
+			};
+			buildConfigurationList = BFA7D1871977E60700533447 /* Build configuration list for PBXProject "RTC Poll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA7D1831977E60700533447;
+			productRefGroup = BFA7D18D1977E60700533447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA7D18B1977E60700533447 /* RTC Poll */,
+				BFA7D1AF1977E60700533447 /* RTC PollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA7D18A1977E60700533447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA7D1AB1977E60700533447 /* Images.xcassets in Resources */,
+				BFA7D19A1977E60700533447 /* InfoPlist.strings in Resources */,
+				BFA7D1A31977E60700533447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA7D1AE1977E60700533447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA7D1BC1977E60700533447 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA7D1881977E60700533447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA7D1A91977E60700533447 /* RSDSecondViewController.m in Sources */,
+				BFA7D1A01977E60700533447 /* RSDAppDelegate.m in Sources */,
+				BFA7D19C1977E60700533447 /* main.m in Sources */,
+				BFA7D1A61977E60700533447 /* RSDFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA7D1AC1977E60700533447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA7D1BE1977E60700533447 /* RTC_PollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA7D1B61977E60700533447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA7D18B1977E60700533447 /* RTC Poll */;
+			targetProxy = BFA7D1B51977E60700533447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA7D1981977E60700533447 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA7D1991977E60700533447 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFA7D1A11977E60700533447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA7D1A21977E60700533447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA7D1BA1977E60700533447 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA7D1BB1977E60700533447 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA7D1BF1977E60700533447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFA7D1C01977E60700533447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA7D1C21977E60700533447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTC Poll/RTC Poll-Prefix.pch";
+				INFOPLIST_FILE = "RTC Poll/RTC Poll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFA7D1C31977E60700533447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTC Poll/RTC Poll-Prefix.pch";
+				INFOPLIST_FILE = "RTC Poll/RTC Poll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFA7D1C51977E60700533447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RTC Poll.app/RTC Poll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTC Poll/RTC Poll-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RTC PollTests/RTC PollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFA7D1C61977E60700533447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RTC Poll.app/RTC Poll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTC Poll/RTC Poll-Prefix.pch";
+				INFOPLIST_FILE = "RTC PollTests/RTC PollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA7D1871977E60700533447 /* Build configuration list for PBXProject "RTC Poll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA7D1BF1977E60700533447 /* Debug */,
+				BFA7D1C01977E60700533447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA7D1C11977E60700533447 /* Build configuration list for PBXNativeTarget "RTC Poll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA7D1C21977E60700533447 /* Debug */,
+				BFA7D1C31977E60700533447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA7D1C41977E60700533447 /* Build configuration list for PBXNativeTarget "RTC PollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA7D1C51977E60700533447 /* Debug */,
+				BFA7D1C61977E60700533447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA7D1841977E60700533447 /* Project object */;
+}
