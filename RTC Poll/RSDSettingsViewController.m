@@ -92,7 +92,7 @@
     
     // if team selected, then deactivate old team selection
     if (currentTeam !=0 ) {
-        UIButton *oldButton = (UIButton *) [self.view viewWithTag:currentTeam];
+        UIButton *oldButton = (UIButton *) [self.view viewWithTag:currentTeam + VIEW_TAG_OFFSET - 1];
         oldButton.backgroundColor = self.inactiveButtonColor;
     }
     

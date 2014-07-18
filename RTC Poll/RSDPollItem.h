@@ -11,7 +11,7 @@
 @interface RSDPollItem : NSObject <NSCopying>
 
 @property (nonatomic) NSString *objectId;
-@property (nonatomic) NSInteger questionId;
+@property (nonatomic) NSInteger questionNo;
 
 @property (nonatomic) NSString *question;
 

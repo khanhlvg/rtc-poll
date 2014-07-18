@@ -180,7 +180,7 @@
             //NSLog(@"%@", object[@"question"]);
             RSDPollItem *item = [[RSDPollItem alloc] init];
             item.objectId = object.objectId;
-            item.questionId = [object[@"question"] integerValue];
+            item.questionNo = [object[@"questionNo"] integerValue];
             item.question = object[@"question"];
             item.choice1 = object[@"choice1"];
             item.choice2 = object[@"choice2"];
@@ -208,7 +208,7 @@
     
     //firstly, check if current team already answer or not
     PFQuery *query = [PFQuery queryWithClassName:@"PollAnswer"];
-    [query whereKey:@"questionNo" equalTo:[NSNumber numberWithInteger:self.pollItem.questionId]];
+    [query whereKey:@"questionNo" equalTo:[NSNumber numberWithInteger:self.pollItem.questionNo]];
     [query whereKey:@"team" equalTo:[NSNumber numberWithInteger:manager.currentTeamNumber]];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
         PFObject *pollAnswer;
@@ -218,7 +218,7 @@
         else
             // create new answer
             pollAnswer = [PFObject objectWithClassName:@"PollAnswer"];
-        pollAnswer[@"questionNo"] = [NSNumber numberWithInteger:self.pollItem.questionId];
+        pollAnswer[@"questionNo"] = [NSNumber numberWithInteger:self.pollItem.questionNo];
         pollAnswer[@"team"] = [NSNumber numberWithInteger:manager.currentTeamNumber];
         pollAnswer[@"answerNo"] = [NSNumber numberWithInteger:self.pollItem.answer];
         pollAnswer[@"isCorrect"] = [NSNumber numberWithBool:(self.pollItem.answer == self.pollItem.correctAnswer)];

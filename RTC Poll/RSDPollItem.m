@@ -14,7 +14,7 @@
 - (id)copyWithZone:(NSZone *)zone
 {
     RSDPollItem *copyItem = [[RSDPollItem alloc] init];
-    copyItem.questionId = self.questionId;
+    copyItem.questionNo = self.questionNo;
     copyItem.objectId = self.objectId;
     
     copyItem.question = self.question;
