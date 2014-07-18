@@ -14,14 +14,27 @@
 		BFA7D19C1977E60700533447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D19B1977E60700533447 /* main.m */; };
 		BFA7D1A01977E60700533447 /* RSDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D19F1977E60700533447 /* RSDAppDelegate.m */; };
 		BFA7D1A31977E60700533447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA7D1A11977E60700533447 /* Main.storyboard */; };
-		BFA7D1A61977E60700533447 /* RSDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1A51977E60700533447 /* RSDFirstViewController.m */; };
-		BFA7D1A91977E60700533447 /* RSDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1A81977E60700533447 /* RSDSecondViewController.m */; };
+		BFA7D1A61977E60700533447 /* RSDPollEntranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1A51977E60700533447 /* RSDPollEntranceViewController.m */; };
+		BFA7D1A91977E60700533447 /* RSDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1A81977E60700533447 /* RSDSettingsViewController.m */; };
 		BFA7D1AB1977E60700533447 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA7D1AA1977E60700533447 /* Images.xcassets */; };
 		BFA7D1B21977E60700533447 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1B11977E60700533447 /* XCTest.framework */; };
 		BFA7D1B31977E60700533447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D18F1977E60700533447 /* Foundation.framework */; };
 		BFA7D1B41977E60700533447 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1931977E60700533447 /* UIKit.framework */; };
 		BFA7D1BC1977E60700533447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFA7D1BA1977E60700533447 /* InfoPlist.strings */; };
 		BFA7D1BE1977E60700533447 /* RTC_PollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1BD1977E60700533447 /* RTC_PollTests.m */; };
+		BFA7D1C91977ED4400533447 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1C81977ED4400533447 /* Parse.framework */; };
+		BFA7D1CB1977ED6800533447 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1CA1977ED6800533447 /* AudioToolbox.framework */; };
+		BFA7D1CD1977ED7000533447 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1CC1977ED7000533447 /* CFNetwork.framework */; };
+		BFA7D1CF1977ED7900533447 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1CE1977ED7900533447 /* CoreLocation.framework */; };
+		BFA7D1D11977ED8000533447 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1D01977ED8000533447 /* libz.dylib */; };
+		BFA7D1D31977ED8A00533447 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1D21977ED8A00533447 /* MobileCoreServices.framework */; };
+		BFA7D1D51977ED9100533447 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1D41977ED9100533447 /* QuartzCore.framework */; };
+		BFA7D1D71977ED9800533447 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1D61977ED9800533447 /* Security.framework */; };
+		BFA7D1D91977ED9E00533447 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1D81977ED9E00533447 /* StoreKit.framework */; };
+		BFA7D1DB1977EDA700533447 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA7D1DA1977EDA700533447 /* SystemConfiguration.framework */; };
+		BFA7D1DE1977FBAC00533447 /* RSDPollDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1DD1977FBAC00533447 /* RSDPollDetailViewController.m */; };
+		BFA7D1E11977FC1E00533447 /* RSDPollItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7D1E01977FC1E00533447 /* RSDPollItem.m */; };
+		BFBC87361978E48C001B003E /* RSDSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBC87351978E48C001B003E /* RSDSettingsManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +59,33 @@
 		BFA7D19E1977E60700533447 /* RSDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDAppDelegate.h; sourceTree = "<group>"; };
 		BFA7D19F1977E60700533447 /* RSDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDAppDelegate.m; sourceTree = "<group>"; };
 		BFA7D1A21977E60700533447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFA7D1A41977E60700533447 /* RSDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDFirstViewController.h; sourceTree = "<group>"; };
-		BFA7D1A51977E60700533447 /* RSDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDFirstViewController.m; sourceTree = "<group>"; };
-		BFA7D1A71977E60700533447 /* RSDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDSecondViewController.h; sourceTree = "<group>"; };
-		BFA7D1A81977E60700533447 /* RSDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDSecondViewController.m; sourceTree = "<group>"; };
+		BFA7D1A41977E60700533447 /* RSDPollEntranceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDPollEntranceViewController.h; sourceTree = "<group>"; };
+		BFA7D1A51977E60700533447 /* RSDPollEntranceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDPollEntranceViewController.m; sourceTree = "<group>"; };
+		BFA7D1A71977E60700533447 /* RSDSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDSettingsViewController.h; sourceTree = "<group>"; };
+		BFA7D1A81977E60700533447 /* RSDSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDSettingsViewController.m; sourceTree = "<group>"; };
 		BFA7D1AA1977E60700533447 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BFA7D1B01977E60700533447 /* RTC PollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RTC PollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA7D1B11977E60700533447 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BFA7D1B91977E60700533447 /* RTC PollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTC PollTests-Info.plist"; sourceTree = "<group>"; };
 		BFA7D1BB1977E60700533447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFA7D1BD1977E60700533447 /* RTC_PollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTC_PollTests.m; sourceTree = "<group>"; };
+		BFA7D1C71977E78E00533447 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BFA7D1C81977ED4400533447 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BFA7D1CA1977ED6800533447 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BFA7D1CC1977ED7000533447 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFA7D1CE1977ED7900533447 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BFA7D1D01977ED8000533447 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BFA7D1D21977ED8A00533447 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BFA7D1D41977ED9100533447 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFA7D1D61977ED9800533447 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFA7D1D81977ED9E00533447 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BFA7D1DA1977EDA700533447 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFA7D1DC1977FBAC00533447 /* RSDPollDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDPollDetailViewController.h; sourceTree = "<group>"; };
+		BFA7D1DD1977FBAC00533447 /* RSDPollDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDPollDetailViewController.m; sourceTree = "<group>"; };
+		BFA7D1DF1977FC1E00533447 /* RSDPollItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDPollItem.h; sourceTree = "<group>"; };
+		BFA7D1E01977FC1E00533447 /* RSDPollItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDPollItem.m; sourceTree = "<group>"; };
+		BFBC87341978E48C001B003E /* RSDSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDSettingsManager.h; sourceTree = "<group>"; };
+		BFBC87351978E48C001B003E /* RSDSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDSettingsManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +93,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA7D1DB1977EDA700533447 /* SystemConfiguration.framework in Frameworks */,
+				BFA7D1D91977ED9E00533447 /* StoreKit.framework in Frameworks */,
+				BFA7D1D71977ED9800533447 /* Security.framework in Frameworks */,
+				BFA7D1D51977ED9100533447 /* QuartzCore.framework in Frameworks */,
+				BFA7D1D31977ED8A00533447 /* MobileCoreServices.framework in Frameworks */,
+				BFA7D1D11977ED8000533447 /* libz.dylib in Frameworks */,
+				BFA7D1CF1977ED7900533447 /* CoreLocation.framework in Frameworks */,
+				BFA7D1CD1977ED7000533447 /* CFNetwork.framework in Frameworks */,
+				BFA7D1CB1977ED6800533447 /* AudioToolbox.framework in Frameworks */,
 				BFA7D1921977E60700533447 /* CoreGraphics.framework in Frameworks */,
 				BFA7D1941977E60700533447 /* UIKit.framework in Frameworks */,
+				BFA7D1C91977ED4400533447 /* Parse.framework in Frameworks */,
 				BFA7D1901977E60700533447 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +144,16 @@
 		BFA7D18E1977E60700533447 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFA7D1DA1977EDA700533447 /* SystemConfiguration.framework */,
+				BFA7D1D81977ED9E00533447 /* StoreKit.framework */,
+				BFA7D1D61977ED9800533447 /* Security.framework */,
+				BFA7D1D41977ED9100533447 /* QuartzCore.framework */,
+				BFA7D1D21977ED8A00533447 /* MobileCoreServices.framework */,
+				BFA7D1D01977ED8000533447 /* libz.dylib */,
+				BFA7D1CE1977ED7900533447 /* CoreLocation.framework */,
+				BFA7D1CC1977ED7000533447 /* CFNetwork.framework */,
+				BFA7D1CA1977ED6800533447 /* AudioToolbox.framework */,
+				BFA7D1C81977ED4400533447 /* Parse.framework */,
 				BFA7D18F1977E60700533447 /* Foundation.framework */,
 				BFA7D1911977E60700533447 /* CoreGraphics.framework */,
 				BFA7D1931977E60700533447 /* UIKit.framework */,
@@ -118,10 +168,17 @@
 				BFA7D19E1977E60700533447 /* RSDAppDelegate.h */,
 				BFA7D19F1977E60700533447 /* RSDAppDelegate.m */,
 				BFA7D1A11977E60700533447 /* Main.storyboard */,
-				BFA7D1A41977E60700533447 /* RSDFirstViewController.h */,
-				BFA7D1A51977E60700533447 /* RSDFirstViewController.m */,
-				BFA7D1A71977E60700533447 /* RSDSecondViewController.h */,
-				BFA7D1A81977E60700533447 /* RSDSecondViewController.m */,
+				BFA7D1DC1977FBAC00533447 /* RSDPollDetailViewController.h */,
+				BFA7D1DD1977FBAC00533447 /* RSDPollDetailViewController.m */,
+				BFA7D1A41977E60700533447 /* RSDPollEntranceViewController.h */,
+				BFA7D1A51977E60700533447 /* RSDPollEntranceViewController.m */,
+				BFA7D1A71977E60700533447 /* RSDSettingsViewController.h */,
+				BFA7D1A81977E60700533447 /* RSDSettingsViewController.m */,
+				BFA7D1DF1977FC1E00533447 /* RSDPollItem.h */,
+				BFA7D1E01977FC1E00533447 /* RSDPollItem.m */,
+				BFBC87341978E48C001B003E /* RSDSettingsManager.h */,
+				BFBC87351978E48C001B003E /* RSDSettingsManager.m */,
+				BFA7D1C71977E78E00533447 /* Constants.h */,
 				BFA7D1AA1977E60700533447 /* Images.xcassets */,
 				BFA7D1961977E60700533447 /* Supporting Files */,
 			);
@@ -255,10 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA7D1A91977E60700533447 /* RSDSecondViewController.m in Sources */,
+				BFA7D1DE1977FBAC00533447 /* RSDPollDetailViewController.m in Sources */,
+				BFA7D1A91977E60700533447 /* RSDSettingsViewController.m in Sources */,
 				BFA7D1A01977E60700533447 /* RSDAppDelegate.m in Sources */,
 				BFA7D19C1977E60700533447 /* main.m in Sources */,
-				BFA7D1A61977E60700533447 /* RSDFirstViewController.m in Sources */,
+				BFA7D1A61977E60700533447 /* RSDPollEntranceViewController.m in Sources */,
+				BFA7D1E11977FC1E00533447 /* RSDPollItem.m in Sources */,
+				BFBC87361978E48C001B003E /* RSDSettingsManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +384,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shoya Sakai (L35PSHYD7A)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -340,8 +401,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "EF948010-1093-4729-9505-183BBE61FD7D";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -362,6 +424,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shoya Sakai (L35PSHYD7A)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -372,7 +435,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "EF948010-1093-4729-9505-183BBE61FD7D";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -383,10 +447,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shoya Sakai (L35PSHYD7A)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RTC Poll/RTC Poll-Prefix.pch";
 				INFOPLIST_FILE = "RTC Poll/RTC Poll-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EF948010-1093-4729-9505-183BBE61FD7D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,10 +466,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shoya Sakai (L35PSHYD7A)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RTC Poll/RTC Poll-Prefix.pch";
 				INFOPLIST_FILE = "RTC Poll/RTC Poll-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EF948010-1093-4729-9505-183BBE61FD7D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +539,7 @@
 				BFA7D1C31977E60700533447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA7D1C41977E60700533447 /* Build configuration list for PBXNativeTarget "RTC PollTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +548,7 @@
 				BFA7D1C61977E60700533447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
